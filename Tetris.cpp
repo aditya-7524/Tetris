@@ -3,7 +3,7 @@
 std::wstring tetromino[7];
 int main()
 {
-	//asset construction~
+	//asset construction 
 	tetromino[0].append(L"..X.");
 	tetromino[0].append(L"..X.");
 	tetromino[0].append(L"..X.");
@@ -38,4 +38,5 @@ int main()
 	tetromino[6].append(L".XX.");
 	tetromino[6].append(L".X..");
 	tetromino[6].append(L".X..");
+
 }
